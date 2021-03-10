@@ -1,0 +1,9 @@
+<div id="movie" *ngIf="data">
+  <div *ngFor="let item of data">
+    <div id="movie_title">{{ item.title }}</div>
+    <div id="movie-img">
+      <img src="https://image.tmdb.org/t/p/w500{{ item.backdrop_path }}" />
+    </div>
+    <div id="overview">{{ item.overview }}</div>
+  </div>
+</div>

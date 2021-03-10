@@ -1,0 +1,29 @@
+.popular {
+  width: 91%;
+  margin: 1.5% auto;
+  display: flex;
+  flex-direction: inherit;
+  flex-wrap: wrap;
+}
+.movies {
+  display: flex;
+  flex-direction: column;
+  margin-right: 0.5%;
+  margin-bottom: 2%;
+}
+p {
+  margin: 0 5% 0 5%;
+  font-size: 2rem;
+}
+.movies .title {
+  white-space: normal;
+  background: #003eee;
+  margin-left: 0;
+  width: 472px;
+  padding: 2%;
+  color: #fff;
+  font-weight: bold;
+}
+.movies img {
+  width: 472px;
+}

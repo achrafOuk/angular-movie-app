@@ -1,0 +1,7 @@
+<p>Popular movies</p>
+<div *ngIf="popular" class="popular">
+  <div class="movies" *ngFor="let movie of popular[0]">
+    <img src="https://image.tmdb.org/t/p/w500/{{ movie.backdrop_path }}" />
+    <a class="title" routerLink="movie/{{ movie.id }}">{{ movie.title }}</a>
+  </div>
+</div>

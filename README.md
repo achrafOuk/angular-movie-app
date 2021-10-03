@@ -1,6 +1,6 @@
 # Myapp
 
-This project aims to create a PWA to show the most popular movies that are fetched from themoviedb API.
+This project aims to create a app to show the most popular movies that are fetched from themoviedb API.
 
 ## Development server
 
